@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>ログイン</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- <link href="css/bootstrap.min.css" rel="stylesheet">
+  <style>div{padding: 10px;font-size:16px;}</style> -->
+</head>
+<body>
+
+<main class="main">
+  <div class="container">
+
+    <!-- Head[Start] -->
+    <!-- <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="select.php">ログイン</a>
+          </div>
+        </div>
+      </nav>
+    </header> -->
+    <!-- Head[End] -->
+
+    <!-- Main[Start] -->
+    <div class="form-wrapper">
+      <h1 class="form_title">ログインが必要です</h1>
+      <form method="post" action="login_act.php">
+        <dl class="form-inner">
+          <dt class="form-title">ID：</dt>
+          <dd class="form-item"><input class="input" type="text" name="lid"></dd>
+          <dt class="form-title">PW：</dt>
+          <dd class="form-item"><input class="input" type="text" name="lpw"></dd>
+        </dl>
+        <input class="sub_btn_log"  type="submit" value="ログイン">
+      </form>
+      <a href="login_reg.php"><input class="sub_btn_res"  type="submit" value="会員登録"></a>
+    </div>
+  </div>
+</main>
+<!-- Main[End] -->
+
+</body>
+</html>
