@@ -90,7 +90,7 @@ if($status==false) {
           <div class="navbar-header">
             <a class="navbar-brand aaa" href="select.php">データ一覧</a>
             <a class="navbar-brand aaa" href="index.php">データ登録</a>
-            <a class="navbar-brand aaa" href="index.html">ログアウト</a>
+            <a class="navbar-brand aaa" href="logout.php">ログアウト</a>
             <p class="name"  style="position:absolute; right:10px; color:black;"><?=$_SESSION["user_name"]?> 様</p>
           </div>
         </div>
